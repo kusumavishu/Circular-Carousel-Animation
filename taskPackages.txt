@@ -1,0 +1,13 @@
+npm install nativewind@2.0.11
+npm install --save-dev tailwindcss@3.3.2
+
+npx tailwindcss init
+
+npm install react-native-reanimated
+npm install react-native-gesture-handler
+
+if any err occurs try
+npx expo install --fix
+
+npx expo-doctor
+npx expo install --check
