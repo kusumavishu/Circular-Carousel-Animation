@@ -11,3 +11,8 @@ npx expo install --fix
 
 npx expo-doctor
 npx expo install --check
+
+
+npm install @react-navigation/native@6.1.18
+npx expo install react-native-screens react-native-safe-area-context
+npm install @react-navigation/native-stack@6.11.0
