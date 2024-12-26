@@ -5,6 +5,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import AllAnimation from "./components/first_screens/AllAnimation";
 import Animation2 from "./components/home_screens/Animation2";
+import PushNotification from "./components/PushNofications/PushNotification";
+import GoogleAdsMob from "./components/Google Ads/GoogleAdsMob";
 
 const Stack = createNativeStackNavigator();
 
@@ -29,6 +31,20 @@ export default function MainScreens() {
         <Stack.Screen
           name="Animation2"
           component={Animation2}
+          options={{
+            headerShown: true,
+          }}
+        />
+        <Stack.Screen
+          name="PushNotification"
+          component={PushNotification}
+          options={{
+            headerShown: true,
+          }}
+        />
+        <Stack.Screen
+          name="GoogleAdsMob"
+          component={GoogleAdsMob}
           options={{
             headerShown: true,
           }}

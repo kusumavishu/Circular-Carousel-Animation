@@ -20,6 +20,20 @@ export default function AllAnimation() {
         >
           <Text className="text-white font-bold">Animation 2</Text>
         </TouchableOpacity>
+
+        <TouchableOpacity
+          className="bg-[#6200eac8] p-4 rounded-lg my-2"
+          onPress={() => navigation.navigate("PushNotification")}
+        >
+          <Text className="text-white font-bold">Push Nofication</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity
+          className="bg-[#6200eac8] p-4 rounded-lg my-2"
+          onPress={() => navigation.navigate("GoogleAdsMob")}
+        >
+          <Text className="text-white font-bold">Google AdsMob</Text>
+        </TouchableOpacity>
       </View>
     </>
   );

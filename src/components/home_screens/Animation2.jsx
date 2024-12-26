@@ -24,10 +24,10 @@ export default function Animation2() {
     };
   }, []);
 
-  useEffect(() => {
-    progress.value = withTiming(0.5, { duration: 5000 });
-    scale.value = withTiming(0.5, { duration: 5000 });
-  }, []);
+  // useEffect(() => {
+  //   progress.value = withTiming(0.5, { duration: 5000 });
+  //   scale.value = withTiming(0.5, { duration: 5000 });
+  // }, []);
 
   return (
     <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
